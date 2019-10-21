@@ -1,0 +1,90 @@
+body{
+    font-family: Verdana, Geneva;
+}
+
+p{
+    font-size: 1.1em;
+    text-align: center;
+}
+
+h1, #quiz>h2, h3{
+    text-align: center;
+    color: blueviolet;
+}
+
+#quiz>h2{
+    margin-top: 5px;
+}
+
+h2{
+    color: #72dee6;
+    text-align: center;
+}
+h3{
+    margin: 5px;
+    text-align: right;
+    font-style: italic;
+}
+
+#quiz{
+    border: 2px solid rgb(224, 186, 125);
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #f3b1b1;
+    width: 75%;
+    margin: 50px auto 0 auto;
+    color: #555555;
+}
+
+input{
+    margin: 10px;
+}
+
+span{
+    font-size: 1.1em;
+}
+
+button, input[type="submit"]{
+    margin: 15px 0 10px 0;
+    border-radius: 10px;
+    font-family: Verdana, Geneva;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    background-color: burlywood;
+    color: white;
+}
+
+input[type="submit"]{
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover, input[type="submit"]:hover{
+    background-color: #f7c0b2;
+}
+a{
+    text-decoration: none;
+    color: rgb(96, 129, 167);
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"]{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    background-color: #f5aeae;
+}
+
+select{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #3ef0fd
+}
+a:hover{
+    color: #35e7e7;
+}
